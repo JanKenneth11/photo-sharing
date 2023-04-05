@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    transition: .2s all ease-in-out;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 1px;
+}
+
+html, body {
+    height: -webkit-fill-available;
+}
+
+form {
+    width: 35%;
+    height: 50%;
+    margin: auto;
+}
+form button {
+    border: none;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 25px;
+    margin: auto;
+    background: #f19733;
+    font-size: 18px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+form button:hover {
+    background: #d3842c;
+}
+.form-container {
+    width: -webkit-fill-available;
+    margin: auto;
+    text-align: center;
+    height: -webkit-fill-available;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form div:not(:first-of-type):not(:last-of-type) {
+    width: min-content;
+    margin: auto;
+    background: #e6e6e6;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+input[type="text"], input[type="password"] {
+    font-size: 18px;
+    color: #666;
+    display: block;
+    background: transparent;
+    height: 50px;
+    border-radius: 25px;
+    padding: 0px 30px 0 15px;
+    /* margin: 10px auto; */
+    border: 0;
+    outline: none;
+}
+
+.text-icon:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f007";
+    font-size: 18px;
+    padding: 0 0 0 30px;
+    /* position: absolute;
+    left: 27%;
+    top: 35%; */
+}
+
+.pass-icon:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f023";
+    font-size: 18px;
+    padding: 0 0 0 30px;
+    /* position: absolute;
+    left: 27%;
+    top: 35%; */
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #f19733;
+}
