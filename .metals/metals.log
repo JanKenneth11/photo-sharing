@@ -431,3 +431,233 @@ WARNING: Unmatched cancel notification for request id 21
 2023.04.05 13:05:18 WARN  no build target for: /Users/jkmvilla/Documents/Development/Projects/simple-photo-sharing/app/controllers/HomeController.scala
 Apr 05, 2023 2:15:29 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2023.04.05 14:49:07 INFO  Started: Metals version 0.11.11 in workspace '/Users/rigisidro/Documents/Development/Photo_sharing/photo-sharing' for client Visual Studio Code 1.74.3.[0m
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.04.05 14:49:13 INFO  time: initialize in 5.61s[0m
+2023.04.05 14:49:14 INFO  Attempting to connect to the build server...[0m
+2023.04.05 14:49:14 INFO  Bloop uses /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home defined at /Users/rigisidro/.bloop/bloop.json[0m
+2023.04.05 14:49:15 ERROR Starting the bsp launcher for bloop...[0m
+2023.04.05 14:49:15 ERROR Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/sd/b27v6s995yngxvzgwctmvjt00000gp/T/bsp-launcher7250674095106646761/bsp.socket'...[0m
+2023.04.05 14:49:15 ERROR Waiting for the bsp connection to come up...[0m
+2023.04.05 14:49:15 ERROR error: The command bsp --protocol local --socket /var/folders/sd/b27v6s995yngxvzgwctmvjt00000gp/T/bsp-launcher7250674095106646761/bsp.socket returned with an error[0m
+2023.04.05 14:49:15 ERROR > [0m[32m[D][0m Loading 2 projects from '/Users/rigisidro/Documents/Development/Photo_sharing/photo-sharing/.bloop'...[0m
+2023.04.05 14:49:15 ERROR > [0m[32m[D][0m Loading project from '/Users/rigisidro/Documents/Development/Photo_sharing/photo-sharing/.bloop/root-test.json'[0m
+2023.04.05 14:49:15 ERROR > [0m[32m[D][0m Loading project from '/Users/rigisidro/Documents/Development/Photo_sharing/photo-sharing/.bloop/root.json'[0m
+2023.04.05 14:49:15 ERROR > [0m[33m[W][0m Scala instance jar /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar doesn't exist![0m
+2023.04.05 14:49:15 ERROR > [0m[33m[W][0m Scala instance jar /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar doesn't exist![0m
+2023.04.05 14:49:15 ERROR > [0m[33m[W][0m Scala instance jar /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.10/scala-compiler-2.13.10.jar doesn't exist![0m
+2023.04.05 14:49:15 ERROR > [0m[33m[W][0m Scala instance jar /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.10/scala-reflect-2.13.10.jar doesn't exist![0m
+2023.04.05 14:49:15 ERROR > [0m[33m[W][0m Scala instance jar /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.jar doesn't exist![0m
+2023.04.05 14:49:15 ERROR > [0m[33m[W][0m Scala instance jar /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.21.0/jline-3.21.0.jar doesn't exist![0m
+2023.04.05 14:49:15 ERROR > [0m[33m[W][0m Scala instance jar /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar doesn't exist![0m
+2023.04.05 14:49:15 ERROR > [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.10.[0m
+2023.04.05 14:49:15 ERROR > [0m[32m[D][0m   => /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.jar[0m
+2023.04.05 14:49:15 ERROR > [0m[32m[D][0m   => /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar[0m
+2023.04.05 14:49:15 ERROR > [0m[32m[D][0m   => /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.21.0/jline-3.21.0.jar[0m
+2023.04.05 14:49:15 ERROR > [0m[32m[D][0m   => /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.10/scala-compiler-2.13.10.jar[0m
+2023.04.05 14:49:15 ERROR > [0m[32m[D][0m   => /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar[0m
+2023.04.05 14:49:15 ERROR > [0m[32m[D][0m   => /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.10/scala-reflect-2.13.10.jar[0m
+2023.04.05 14:49:15 ERROR > [0m[33m[W][0m Scala instance jar /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.10/scala-compiler-2.13.10.jar doesn't exist![0m
+2023.04.05 14:49:15 ERROR > [0m[33m[W][0m Scala instance jar /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.10/scala-reflect-2.13.10.jar doesn't exist![0m
+2023.04.05 14:49:15 ERROR > [0m[33m[W][0m Scala instance jar /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.jar doesn't exist![0m
+2023.04.05 14:49:15 ERROR > [0m[33m[W][0m Scala instance jar /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.21.0/jline-3.21.0.jar doesn't exist![0m
+2023.04.05 14:49:15 ERROR > [0m[33m[W][0m Scala instance jar /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar doesn't exist![0m
+2023.04.05 14:49:15 ERROR > [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.10.[0m
+2023.04.05 14:49:15 ERROR > [0m[32m[D][0m   => /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.jar[0m
+2023.04.05 14:49:15 ERROR > [0m[32m[D][0m   => /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar[0m
+2023.04.05 14:49:15 ERROR > [0m[32m[D][0m   => /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.21.0/jline-3.21.0.jar[0m
+2023.04.05 14:49:15 ERROR > [0m[32m[D][0m   => /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.10/scala-compiler-2.13.10.jar[0m
+2023.04.05 14:49:15 ERROR > [0m[32m[D][0m   => /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar[0m
+2023.04.05 14:49:15 ERROR > [0m[32m[D][0m   => /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.10/scala-reflect-2.13.10.jar[0m
+2023.04.05 14:49:15 ERROR > [0m[32m[D][0m Elapsed: 199.62488 ms[0m
+2023.04.05 14:49:15 ERROR > [0m[31m[E][0m Failed to load project from /Users/rigisidro/Documents/Development/Photo_sharing/photo-sharing/.bloop/root.json[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m bloop.data.Project$ProjectReadException: Failed to load project from /Users/rigisidro/Documents/Development/Photo_sharing/photo-sharing/.bloop/root.json[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:295)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:248)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:59)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:81)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskShift$Register$$anon$1.run(TaskShift.scala:65)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	monix.execution.internal.InterceptRunnable.run(InterceptRunnable.scala:27)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	java.lang.Thread.run(Thread.java:748)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m Caused by: java.nio.file.NoSuchFileException: /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:144)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	java.nio.file.Files.readAttributes(Files.java:1737)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance.$anonfun$hashCode$1(ScalaInstance.scala:111)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:286)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	scala.collection.mutable.WrappedArray.foreach(WrappedArray.scala:38)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	scala.collection.TraversableLike.map(TraversableLike.scala:286)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	scala.collection.TraversableLike.map$(TraversableLike.scala:279)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	scala.collection.AbstractTraversable.map(Traversable.scala:108)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance.<init>(ScalaInstance.scala:107)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.newInstance$1(ScalaInstance.scala:180)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.$anonfun$apply$7(ScalaInstance.scala:185)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.apply(ScalaInstance.scala:185)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	bloop.data.Project$.$anonfun$fromConfig$1(Project.scala:311)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	scala.Option.flatMap(Option.scala:271)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromConfig(Project.scala:306)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:289)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:248)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:59)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:81)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskShift$Register$$anon$1.run(TaskShift.scala:65)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	monix.execution.internal.InterceptRunnable.run(InterceptRunnable.scala:27)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	java.lang.Thread.run(Thread.java:748)[0m
+2023.04.05 14:49:15 ERROR error: Trying a tcp-based connection to the server instead...[0m
+2023.04.05 14:49:15 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 20055'...[0m
+2023.04.05 14:49:15 ERROR Waiting for the bsp connection to come up...[0m
+2023.04.05 14:49:15 ERROR error: The command bsp --protocol tcp --port 20055 returned with an error[0m
+2023.04.05 14:49:15 ERROR > [0m[32m[D][0m Loading 2 projects from '/Users/rigisidro/Documents/Development/Photo_sharing/photo-sharing/.bloop'...[0m
+2023.04.05 14:49:15 ERROR > [0m[32m[D][0m Loading project from '/Users/rigisidro/Documents/Development/Photo_sharing/photo-sharing/.bloop/root.json'[0m
+2023.04.05 14:49:15 ERROR > [0m[32m[D][0m Loading project from '/Users/rigisidro/Documents/Development/Photo_sharing/photo-sharing/.bloop/root-test.json'[0m
+2023.04.05 14:49:15 ERROR > [0m[33m[W][0m Scala instance jar /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar doesn't exist![0m
+2023.04.05 14:49:15 ERROR > [0m[33m[W][0m Scala instance jar /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.10/scala-compiler-2.13.10.jar doesn't exist![0m
+2023.04.05 14:49:15 ERROR > [0m[33m[W][0m Scala instance jar /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.10/scala-reflect-2.13.10.jar doesn't exist![0m
+2023.04.05 14:49:15 ERROR > [0m[33m[W][0m Scala instance jar /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.jar doesn't exist![0m
+2023.04.05 14:49:15 ERROR > [0m[33m[W][0m Scala instance jar /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.21.0/jline-3.21.0.jar doesn't exist![0m
+2023.04.05 14:49:15 ERROR > [0m[33m[W][0m Scala instance jar /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar doesn't exist![0m
+2023.04.05 14:49:15 ERROR > [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.10.[0m
+2023.04.05 14:49:15 ERROR > [0m[32m[D][0m   => /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.jar[0m
+2023.04.05 14:49:15 ERROR > [0m[32m[D][0m   => /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar[0m
+2023.04.05 14:49:15 ERROR > [0m[32m[D][0m   => /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.21.0/jline-3.21.0.jar[0m
+2023.04.05 14:49:15 ERROR > [0m[32m[D][0m   => /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.10/scala-compiler-2.13.10.jar[0m
+2023.04.05 14:49:15 ERROR > [0m[32m[D][0m   => /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar[0m
+2023.04.05 14:49:15 ERROR > [0m[32m[D][0m   => /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.10/scala-reflect-2.13.10.jar[0m
+2023.04.05 14:49:15 ERROR > [0m[33m[W][0m Scala instance jar /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar doesn't exist![0m
+2023.04.05 14:49:15 ERROR > [0m[33m[W][0m Scala instance jar /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.10/scala-compiler-2.13.10.jar doesn't exist![0m
+2023.04.05 14:49:15 ERROR > [0m[33m[W][0m Scala instance jar /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.10/scala-reflect-2.13.10.jar doesn't exist![0m
+2023.04.05 14:49:15 ERROR > [0m[33m[W][0m Scala instance jar /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.jar doesn't exist![0m
+2023.04.05 14:49:15 ERROR > [0m[33m[W][0m Scala instance jar /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.21.0/jline-3.21.0.jar doesn't exist![0m
+2023.04.05 14:49:15 ERROR > [0m[33m[W][0m Scala instance jar /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar doesn't exist![0m
+2023.04.05 14:49:15 ERROR > [0m[32m[D][0m Elapsed: 11.539339 ms[0m
+2023.04.05 14:49:15 ERROR > [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.10.[0m
+2023.04.05 14:49:15 ERROR > [0m[32m[D][0m   => /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.jar[0m
+2023.04.05 14:49:15 ERROR > [0m[32m[D][0m   => /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar[0m
+2023.04.05 14:49:15 ERROR > [0m[32m[D][0m   => /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.21.0/jline-3.21.0.jar[0m
+2023.04.05 14:49:15 ERROR > [0m[31m[E][0m Failed to load project from /Users/rigisidro/Documents/Development/Photo_sharing/photo-sharing/.bloop/root.json[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m bloop.data.Project$ProjectReadException: Failed to load project from /Users/rigisidro/Documents/Development/Photo_sharing/photo-sharing/.bloop/root.json[0m
+2023.04.05 14:49:15 ERROR > [0m[32m[D][0m   => /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.10/scala-compiler-2.13.10.jar[0m
+2023.04.05 14:49:15 ERROR > [0m[32m[D][0m   => /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar[0m
+2023.04.05 14:49:15 ERROR > [0m[32m[D][0m   => /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.10/scala-reflect-2.13.10.jar[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:295)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:248)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:59)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:81)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskShift$Register$$anon$1.run(TaskShift.scala:65)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	monix.execution.internal.InterceptRunnable.run(InterceptRunnable.scala:27)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	java.lang.Thread.run(Thread.java:748)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m Caused by: java.nio.file.NoSuchFileException: /Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:144)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	java.nio.file.Files.readAttributes(Files.java:1737)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance.$anonfun$hashCode$1(ScalaInstance.scala:111)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:286)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	scala.collection.mutable.WrappedArray.foreach(WrappedArray.scala:38)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	scala.collection.TraversableLike.map(TraversableLike.scala:286)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	scala.collection.TraversableLike.map$(TraversableLike.scala:279)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	scala.collection.AbstractTraversable.map(Traversable.scala:108)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance.<init>(ScalaInstance.scala:107)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.newInstance$1(ScalaInstance.scala:180)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.$anonfun$apply$7(ScalaInstance.scala:185)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.apply(ScalaInstance.scala:185)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	bloop.data.Project$.$anonfun$fromConfig$1(Project.scala:311)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	scala.Option.flatMap(Option.scala:271)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromConfig(Project.scala:306)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:289)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:248)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:59)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:81)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskShift$Register$$anon$1.run(TaskShift.scala:65)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	monix.execution.internal.InterceptRunnable.run(InterceptRunnable.scala:27)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)[0m
+2023.04.05 14:49:15 ERROR > [0m[36m[T][0m 	java.lang.Thread.run(Thread.java:748)[0m
+2023.04.05 14:49:15 ERROR error: The launcher failed to establish a bsp connection, aborting...[0m
+2023.04.05 14:49:15 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:92)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:119)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:496)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+2023.04.05 14:49:27 INFO  running '/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/sd/b27v6s995yngxvzgwctmvjt00000gp/T/metals5486206043963337277/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2023.04.05 14:49:33 INFO  [info] welcome to sbt 1.7.2 (Oracle Corporation Java 1.8.0_181)[0m
+2023.04.05 14:49:40 INFO  [info] loading settings for project photo-sharing-build-build-build from metals.sbt ...[0m
+2023.04.05 14:49:42 INFO  [info] loading project definition from /Users/rigisidro/Documents/Development/Photo_sharing/photo-sharing/project/project/project[0m
+Apr 05, 2023 2:49:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.04.05 14:49:49 INFO  [info] loading settings for project photo-sharing-build-build from metals.sbt ...[0m
+2023.04.05 14:49:49 INFO  [info] loading project definition from /Users/rigisidro/Documents/Development/Photo_sharing/photo-sharing/project/project[0m
+2023.04.05 14:49:54 INFO  [success] Generated .bloop/photo-sharing-build-build.json[0m
+2023.04.05 14:49:54 INFO  [warn] Removed stale /Users/rigisidro/Documents/Development/Photo_sharing/photo-sharing/project/project/.bloop/simple-photo-sharing-build-build.json[0m
+2023.04.05 14:49:54 INFO  [success] Total time: 4 s, completed 04 5, 23 2:49:54 PM[0m
+2023.04.05 14:49:56 INFO  [info] loading settings for project photo-sharing-build from metals.sbt,plugins.sbt ...[0m
+2023.04.05 14:49:56 INFO  [info] loading project definition from /Users/rigisidro/Documents/Development/Photo_sharing/photo-sharing/project[0m
+2023.04.05 14:50:01 INFO  [success] Generated .bloop/photo-sharing-build.json[0m
+2023.04.05 14:50:01 INFO  [warn] Removed stale /Users/rigisidro/Documents/Development/Photo_sharing/photo-sharing/project/.bloop/simple-photo-sharing-build.json[0m
+2023.04.05 14:50:01 INFO  [success] Total time: 6 s, completed 04 5, 23 2:50:02 PM[0m
+2023.04.05 14:50:08 INFO  [info] loading settings for project root from build.sbt ...[0m
+2023.04.05 14:50:08 INFO  [info]   __              __[0m
+2023.04.05 14:50:08 INFO  [info]   \ \     ____   / /____ _ __  __[0m
+2023.04.05 14:50:08 INFO  [info]    \ \   / __ \ / // __ `// / / /[0m
+2023.04.05 14:50:08 INFO  [info]    / /  / /_/ // // /_/ // /_/ /[0m
+2023.04.05 14:50:08 INFO  [info]   /_/  / .___//_/ \__,_/ \__, /[0m
+2023.04.05 14:50:08 INFO  [info]       /_/               /____/[0m
+2023.04.05 14:50:08 INFO  [info] [0m
+2023.04.05 14:50:08 INFO  [info] Version 2.8.19 running Java 1.8.0_181[0m
+2023.04.05 14:50:08 INFO  [info] [0m
+2023.04.05 14:50:08 INFO  [info] Play is run entirely by the community. Please consider contributing and/or donating:[0m
+2023.04.05 14:50:08 INFO  [info] https://www.playframework.com/sponsors[0m
+2023.04.05 14:50:08 INFO  [info] [0m
+2023.04.05 14:50:18 INFO  [success] Generated .bloop/root.json[0m
+2023.04.05 14:50:18 INFO  [success] Generated .bloop/root-test.json[0m
+2023.04.05 14:50:18 INFO  [success] Total time: 9 s, completed 04 5, 23 2:50:18 PM[0m
+2023.04.05 14:50:19 INFO  time: ran 'sbt bloopInstall' in 51s[0m
+2023.04.05 14:50:19 INFO  Attempting to connect to the build server...[0m
+2023.04.05 14:50:19 INFO  Bloop uses /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home defined at /Users/rigisidro/.bloop/bloop.json[0m
+2023.04.05 14:50:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/rigisidro/Documents/Development/Photo_sharing/photo-sharing/.metals/bsp.trace.json or /Users/rigisidro/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2023.04.05 14:50:20 INFO  Attempting to connect to the build server...[0m
+2023.04.05 14:50:20 INFO  Bloop uses /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home defined at /Users/rigisidro/.bloop/bloop.json[0m
+2023.04.05 14:50:20 INFO  Attempting to connect to the build server...[0m
+2023.04.05 14:50:20 INFO  Bloop uses /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home defined at /Users/rigisidro/.bloop/bloop.json[0m
+2023.04.05 14:50:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/rigisidro/Documents/Development/Photo_sharing/photo-sharing/project/.metals/bsp.trace.json or /Users/rigisidro/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2023.04.05 14:50:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/rigisidro/Documents/Development/Photo_sharing/photo-sharing/project/project/.metals/bsp.trace.json or /Users/rigisidro/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2023.04.05 14:50:20 INFO  time: Connected to build server in 2.09s[0m
+2023.04.05 14:50:20 INFO  Connected to Build server: Bloop v1.5.6[0m
+2023.04.05 14:50:21 INFO  time: Imported build in 0.42s[0m
+2023.04.05 14:50:48 INFO  time: indexed workspace in 26s[0m

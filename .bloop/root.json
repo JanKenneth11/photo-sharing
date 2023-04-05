@@ -2,95 +2,95 @@
     "version": "1.4.0",
     "project": {
         "name": "root",
-        "directory": "/Users/jkmvilla/Documents/Development/Projects/simple-photo-sharing",
-        "workspaceDir": "/Users/jkmvilla/Documents/Development/Projects/simple-photo-sharing",
+        "directory": "/Users/rigisidro/Documents/Development/Photo_sharing/photo-sharing",
+        "workspaceDir": "/Users/rigisidro/Documents/Development/Photo_sharing/photo-sharing",
         "sources": [
-            "/Users/jkmvilla/Documents/Development/Projects/simple-photo-sharing/app",
-            "/Users/jkmvilla/Documents/Development/Projects/simple-photo-sharing/app-2.13",
-            "/Users/jkmvilla/Documents/Development/Projects/simple-photo-sharing/app-2",
-            "/Users/jkmvilla/Documents/Development/Projects/simple-photo-sharing/target/scala-2.13/src_managed/main",
-            "/Users/jkmvilla/Documents/Development/Projects/simple-photo-sharing/target/scala-2.13/twirl/main",
-            "/Users/jkmvilla/Documents/Development/Projects/simple-photo-sharing/target/scala-2.13/routes/main"
+            "/Users/rigisidro/Documents/Development/Photo_sharing/photo-sharing/app",
+            "/Users/rigisidro/Documents/Development/Photo_sharing/photo-sharing/app-2.13",
+            "/Users/rigisidro/Documents/Development/Photo_sharing/photo-sharing/app-2",
+            "/Users/rigisidro/Documents/Development/Photo_sharing/photo-sharing/target/scala-2.13/src_managed/main",
+            "/Users/rigisidro/Documents/Development/Photo_sharing/photo-sharing/target/scala-2.13/twirl/main",
+            "/Users/rigisidro/Documents/Development/Photo_sharing/photo-sharing/target/scala-2.13/routes/main"
         ],
         "dependencies": [
             
         ],
         "classpath": [
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.13/1.5.1/twirl-api_2.13-1.5.1.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-server_2.13/2.8.19/play-server_2.13-2.8.19.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-logback_2.13/2.8.19/play-logback_2.13-2.8.19.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.13/2.8.19/play-akka-http-server_2.13-2.8.19.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.13/2.8.19/filters-helpers_2.13-2.8.19.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/slick/slick_2.13/3.3.2/slick_2.13-3.3.2.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/slick/slick-hikaricp_2.13/3.3.2/slick-hikaricp_2.13-3.3.2.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-slick_2.13/5.0.0/play-slick_2.13-5.0.0.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-slick-evolutions_2.13/5.0.0/play-slick-evolutions_2.13-5.0.0.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/xerial/sqlite-jdbc/3.34.0/sqlite-jdbc-3.34.0.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-guice_2.13/2.8.19/play-guice_2.13-2.8.19.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.8.19/play_2.13-2.8.19.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-streams_2.13/2.8.19/play-streams_2.13-2.8.19.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.1.15/akka-http-core_2.13-10.1.15.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.0.0/scala-collection-compat_2.13-2.0.0.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/zaxxer/HikariCP/3.2.0/HikariCP-3.2.0.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-jdbc-api_2.13/2.8.0/play-jdbc-api_2.13-2.8.0.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-jdbc-evolutions_2.13/2.8.0/play-jdbc-evolutions_2.13-2.8.0.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.11/logback-core-1.2.11.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/inject/guice/4.2.3/guice-4.2.3.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.2.3/guice-assistedinject-4.2.3.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/build-link/2.8.19/build-link-2.8.19.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.36/jcl-over-slf4j-1.7.36.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.20/akka-actor_2.13-2.6.20.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.6.20/akka-actor-typed_2.13-2.6.20.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.6.20/akka-slf4j_2.13-2.6.20.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-serialization-jackson_2.13/2.6.20/akka-serialization-jackson_2.13-2.6.20.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.11.4/jackson-core-2.11.4.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.11.4/jackson-annotations-2.11.4.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.11.4/jackson-datatype-jdk8-2.11.4.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.4/jackson-datatype-jsr310-2.11.4.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.11.4/jackson-databind-2.11.4.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-json_2.13/2.8.2/play-json_2.13-2.8.2.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/1.0.2/scala-java8-compat_2.13-1.0.2.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.3/ssl-config-core_2.13-0.4.3.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.20/akka-stream_2.13-2.6.20.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.1.15/akka-parsing_2.13-10.1.15.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.8.19/play-exceptions-2.8.19.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.11.4/jackson-module-parameter-names-2.11.4.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.11.4/jackson-dataformat-cbor-2.11.4.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.13/2.11.4/jackson-module-scala_2.13-2.11.4.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-functional_2.13/2.8.2/play-functional_2.13-2.8.2.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.10/scala-reflect-2.13.10.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.20/akka-protobuf-v3_2.13-2.6.20.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.11.4/jackson-module-paranamer-2.11.4.jar",
-            "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar"
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.13/1.5.1/twirl-api_2.13-1.5.1.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-server_2.13/2.8.19/play-server_2.13-2.8.19.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-logback_2.13/2.8.19/play-logback_2.13-2.8.19.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.13/2.8.19/play-akka-http-server_2.13-2.8.19.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.13/2.8.19/filters-helpers_2.13-2.8.19.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/slick/slick_2.13/3.3.2/slick_2.13-3.3.2.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/slick/slick-hikaricp_2.13/3.3.2/slick-hikaricp_2.13-3.3.2.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-slick_2.13/5.0.0/play-slick_2.13-5.0.0.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-slick-evolutions_2.13/5.0.0/play-slick-evolutions_2.13-5.0.0.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/xerial/sqlite-jdbc/3.34.0/sqlite-jdbc-3.34.0.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-guice_2.13/2.8.19/play-guice_2.13-2.8.19.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.8.19/play_2.13-2.8.19.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-streams_2.13/2.8.19/play-streams_2.13-2.8.19.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.1.15/akka-http-core_2.13-10.1.15.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.0.0/scala-collection-compat_2.13-2.0.0.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/zaxxer/HikariCP/3.2.0/HikariCP-3.2.0.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-jdbc-api_2.13/2.8.0/play-jdbc-api_2.13-2.8.0.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-jdbc-evolutions_2.13/2.8.0/play-jdbc-evolutions_2.13-2.8.0.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.11/logback-core-1.2.11.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/inject/guice/4.2.3/guice-4.2.3.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.2.3/guice-assistedinject-4.2.3.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/build-link/2.8.19/build-link-2.8.19.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.36/jcl-over-slf4j-1.7.36.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.20/akka-actor_2.13-2.6.20.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.6.20/akka-actor-typed_2.13-2.6.20.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.6.20/akka-slf4j_2.13-2.6.20.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-serialization-jackson_2.13/2.6.20/akka-serialization-jackson_2.13-2.6.20.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.11.4/jackson-core-2.11.4.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.11.4/jackson-annotations-2.11.4.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.11.4/jackson-datatype-jdk8-2.11.4.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.4/jackson-datatype-jsr310-2.11.4.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.11.4/jackson-databind-2.11.4.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-json_2.13/2.8.2/play-json_2.13-2.8.2.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/1.0.2/scala-java8-compat_2.13-1.0.2.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.3/ssl-config-core_2.13-0.4.3.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.20/akka-stream_2.13-2.6.20.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.1.15/akka-parsing_2.13-10.1.15.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.8.19/play-exceptions-2.8.19.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.11.4/jackson-module-parameter-names-2.11.4.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.11.4/jackson-dataformat-cbor-2.11.4.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.13/2.11.4/jackson-module-scala_2.13-2.11.4.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-functional_2.13/2.8.2/play-functional_2.13-2.8.2.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.10/scala-reflect-2.13.10.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.20/akka-protobuf-v3_2.13-2.6.20.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.11.4/jackson-module-paranamer-2.11.4.jar",
+            "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar"
         ],
-        "out": "/Users/jkmvilla/Documents/Development/Projects/simple-photo-sharing/.bloop/root",
-        "classesDir": "/Users/jkmvilla/Documents/Development/Projects/simple-photo-sharing/.bloop/root/scala-2.13/classes",
+        "out": "/Users/rigisidro/Documents/Development/Photo_sharing/photo-sharing/.bloop/root",
+        "classesDir": "/Users/rigisidro/Documents/Development/Photo_sharing/photo-sharing/.bloop/root/scala-2.13/classes",
         "resources": [
-            "/Users/jkmvilla/Documents/Development/Projects/simple-photo-sharing/conf",
-            "/Users/jkmvilla/Documents/Development/Projects/simple-photo-sharing/target/scala-2.13/resource_managed/main"
+            "/Users/rigisidro/Documents/Development/Photo_sharing/photo-sharing/conf",
+            "/Users/rigisidro/Documents/Development/Photo_sharing/photo-sharing/target/scala-2.13/resource_managed/main"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -103,12 +103,12 @@
                 "utf8"
             ],
             "jars": [
-                "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar",
-                "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.10/scala-compiler-2.13.10.jar",
-                "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.10/scala-reflect-2.13.10.jar",
-                "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.jar",
-                "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.21.0/jline-3.21.0.jar",
-                "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar"
+                "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar",
+                "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.10/scala-compiler-2.13.10.jar",
+                "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.10/scala-reflect-2.13.10.jar",
+                "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.jar",
+                "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.21.0/jline-3.21.0.jar",
+                "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar"
             ],
             "setup": {
                 "order": "mixed",
@@ -173,9 +173,9 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "/usr/local/Cellar/openjdk@8/1.8.0+362/libexec/openjdk.jdk/Contents/Home/jre",
+                "home": "/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre",
                 "options": [
-                    "-Duser.dir=/Users/jkmvilla/Documents/Development/Projects/simple-photo-sharing"
+                    "-Duser.dir=/Users/rigisidro/Documents/Development/Photo_sharing/photo-sharing"
                 ]
             },
             "mainClass": [
@@ -192,12 +192,12 @@
                     "artifacts": [
                         {
                             "name": "scala-library",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar"
                         },
                         {
                             "name": "scala-library",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10-sources.jar"
                         }
                     ]
                 },
@@ -209,12 +209,12 @@
                     "artifacts": [
                         {
                             "name": "twirl-api_2.13",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.13/1.5.1/twirl-api_2.13-1.5.1.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.13/1.5.1/twirl-api_2.13-1.5.1.jar"
                         },
                         {
                             "name": "twirl-api_2.13",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.13/1.5.1/twirl-api_2.13-1.5.1-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.13/1.5.1/twirl-api_2.13-1.5.1-sources.jar"
                         }
                     ]
                 },
@@ -226,12 +226,12 @@
                     "artifacts": [
                         {
                             "name": "play-server_2.13",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-server_2.13/2.8.19/play-server_2.13-2.8.19.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-server_2.13/2.8.19/play-server_2.13-2.8.19.jar"
                         },
                         {
                             "name": "play-server_2.13",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-server_2.13/2.8.19/play-server_2.13-2.8.19-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-server_2.13/2.8.19/play-server_2.13-2.8.19-sources.jar"
                         }
                     ]
                 },
@@ -243,12 +243,12 @@
                     "artifacts": [
                         {
                             "name": "play-logback_2.13",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-logback_2.13/2.8.19/play-logback_2.13-2.8.19.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-logback_2.13/2.8.19/play-logback_2.13-2.8.19.jar"
                         },
                         {
                             "name": "play-logback_2.13",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-logback_2.13/2.8.19/play-logback_2.13-2.8.19-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-logback_2.13/2.8.19/play-logback_2.13-2.8.19-sources.jar"
                         }
                     ]
                 },
@@ -260,12 +260,12 @@
                     "artifacts": [
                         {
                             "name": "play-akka-http-server_2.13",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.13/2.8.19/play-akka-http-server_2.13-2.8.19.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.13/2.8.19/play-akka-http-server_2.13-2.8.19.jar"
                         },
                         {
                             "name": "play-akka-http-server_2.13",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.13/2.8.19/play-akka-http-server_2.13-2.8.19-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.13/2.8.19/play-akka-http-server_2.13-2.8.19-sources.jar"
                         }
                     ]
                 },
@@ -277,12 +277,12 @@
                     "artifacts": [
                         {
                             "name": "filters-helpers_2.13",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.13/2.8.19/filters-helpers_2.13-2.8.19.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.13/2.8.19/filters-helpers_2.13-2.8.19.jar"
                         },
                         {
                             "name": "filters-helpers_2.13",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.13/2.8.19/filters-helpers_2.13-2.8.19-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.13/2.8.19/filters-helpers_2.13-2.8.19-sources.jar"
                         }
                     ]
                 },
@@ -294,12 +294,12 @@
                     "artifacts": [
                         {
                             "name": "slick_2.13",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/slick/slick_2.13/3.3.2/slick_2.13-3.3.2.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/slick/slick_2.13/3.3.2/slick_2.13-3.3.2.jar"
                         },
                         {
                             "name": "slick_2.13",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/slick/slick_2.13/3.3.2/slick_2.13-3.3.2-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/slick/slick_2.13/3.3.2/slick_2.13-3.3.2-sources.jar"
                         }
                     ]
                 },
@@ -311,12 +311,12 @@
                     "artifacts": [
                         {
                             "name": "slick-hikaricp_2.13",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/slick/slick-hikaricp_2.13/3.3.2/slick-hikaricp_2.13-3.3.2.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/slick/slick-hikaricp_2.13/3.3.2/slick-hikaricp_2.13-3.3.2.jar"
                         },
                         {
                             "name": "slick-hikaricp_2.13",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/slick/slick-hikaricp_2.13/3.3.2/slick-hikaricp_2.13-3.3.2-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/slick/slick-hikaricp_2.13/3.3.2/slick-hikaricp_2.13-3.3.2-sources.jar"
                         }
                     ]
                 },
@@ -328,12 +328,12 @@
                     "artifacts": [
                         {
                             "name": "play-slick_2.13",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-slick_2.13/5.0.0/play-slick_2.13-5.0.0.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-slick_2.13/5.0.0/play-slick_2.13-5.0.0.jar"
                         },
                         {
                             "name": "play-slick_2.13",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-slick_2.13/5.0.0/play-slick_2.13-5.0.0-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-slick_2.13/5.0.0/play-slick_2.13-5.0.0-sources.jar"
                         }
                     ]
                 },
@@ -345,12 +345,12 @@
                     "artifacts": [
                         {
                             "name": "play-slick-evolutions_2.13",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-slick-evolutions_2.13/5.0.0/play-slick-evolutions_2.13-5.0.0.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-slick-evolutions_2.13/5.0.0/play-slick-evolutions_2.13-5.0.0.jar"
                         },
                         {
                             "name": "play-slick-evolutions_2.13",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-slick-evolutions_2.13/5.0.0/play-slick-evolutions_2.13-5.0.0-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-slick-evolutions_2.13/5.0.0/play-slick-evolutions_2.13-5.0.0-sources.jar"
                         }
                     ]
                 },
@@ -362,12 +362,12 @@
                     "artifacts": [
                         {
                             "name": "logback-classic",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11.jar"
                         },
                         {
                             "name": "logback-classic",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11-sources.jar"
                         }
                     ]
                 },
@@ -379,12 +379,12 @@
                     "artifacts": [
                         {
                             "name": "sqlite-jdbc",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/xerial/sqlite-jdbc/3.34.0/sqlite-jdbc-3.34.0.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/xerial/sqlite-jdbc/3.34.0/sqlite-jdbc-3.34.0.jar"
                         },
                         {
                             "name": "sqlite-jdbc",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/xerial/sqlite-jdbc/3.34.0/sqlite-jdbc-3.34.0-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/xerial/sqlite-jdbc/3.34.0/sqlite-jdbc-3.34.0-sources.jar"
                         }
                     ]
                 },
@@ -396,12 +396,12 @@
                     "artifacts": [
                         {
                             "name": "play-guice_2.13",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-guice_2.13/2.8.19/play-guice_2.13-2.8.19.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-guice_2.13/2.8.19/play-guice_2.13-2.8.19.jar"
                         },
                         {
                             "name": "play-guice_2.13",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-guice_2.13/2.8.19/play-guice_2.13-2.8.19-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-guice_2.13/2.8.19/play-guice_2.13-2.8.19-sources.jar"
                         }
                     ]
                 },
@@ -413,12 +413,12 @@
                     "artifacts": [
                         {
                             "name": "scala-xml_2.13",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0.jar"
                         },
                         {
                             "name": "scala-xml_2.13",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0-sources.jar"
                         }
                     ]
                 },
@@ -430,12 +430,12 @@
                     "artifacts": [
                         {
                             "name": "play_2.13",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.8.19/play_2.13-2.8.19.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.8.19/play_2.13-2.8.19.jar"
                         },
                         {
                             "name": "play_2.13",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.8.19/play_2.13-2.8.19-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.8.19/play_2.13-2.8.19-sources.jar"
                         }
                     ]
                 },
@@ -447,12 +447,12 @@
                     "artifacts": [
                         {
                             "name": "play-streams_2.13",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-streams_2.13/2.8.19/play-streams_2.13-2.8.19.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-streams_2.13/2.8.19/play-streams_2.13-2.8.19.jar"
                         },
                         {
                             "name": "play-streams_2.13",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-streams_2.13/2.8.19/play-streams_2.13-2.8.19-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-streams_2.13/2.8.19/play-streams_2.13-2.8.19-sources.jar"
                         }
                     ]
                 },
@@ -464,12 +464,12 @@
                     "artifacts": [
                         {
                             "name": "akka-http-core_2.13",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.1.15/akka-http-core_2.13-10.1.15.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.1.15/akka-http-core_2.13-10.1.15.jar"
                         },
                         {
                             "name": "akka-http-core_2.13",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.1.15/akka-http-core_2.13-10.1.15-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.1.15/akka-http-core_2.13-10.1.15-sources.jar"
                         }
                     ]
                 },
@@ -481,12 +481,12 @@
                     "artifacts": [
                         {
                             "name": "slf4j-api",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar"
                         },
                         {
                             "name": "slf4j-api",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36-sources.jar"
                         }
                     ]
                 },
@@ -498,12 +498,12 @@
                     "artifacts": [
                         {
                             "name": "config",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar"
                         },
                         {
                             "name": "config",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2-sources.jar"
                         }
                     ]
                 },
@@ -515,12 +515,12 @@
                     "artifacts": [
                         {
                             "name": "reactive-streams",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar"
                         },
                         {
                             "name": "reactive-streams",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3-sources.jar"
                         }
                     ]
                 },
@@ -532,12 +532,12 @@
                     "artifacts": [
                         {
                             "name": "scala-collection-compat_2.13",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.0.0/scala-collection-compat_2.13-2.0.0.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.0.0/scala-collection-compat_2.13-2.0.0.jar"
                         },
                         {
                             "name": "scala-collection-compat_2.13",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.0.0/scala-collection-compat_2.13-2.0.0-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.0.0/scala-collection-compat_2.13-2.0.0-sources.jar"
                         }
                     ]
                 },
@@ -549,12 +549,12 @@
                     "artifacts": [
                         {
                             "name": "HikariCP",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/zaxxer/HikariCP/3.2.0/HikariCP-3.2.0.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/zaxxer/HikariCP/3.2.0/HikariCP-3.2.0.jar"
                         },
                         {
                             "name": "HikariCP",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/zaxxer/HikariCP/3.2.0/HikariCP-3.2.0-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/zaxxer/HikariCP/3.2.0/HikariCP-3.2.0-sources.jar"
                         }
                     ]
                 },
@@ -566,12 +566,12 @@
                     "artifacts": [
                         {
                             "name": "play-jdbc-api_2.13",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-jdbc-api_2.13/2.8.0/play-jdbc-api_2.13-2.8.0.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-jdbc-api_2.13/2.8.0/play-jdbc-api_2.13-2.8.0.jar"
                         },
                         {
                             "name": "play-jdbc-api_2.13",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-jdbc-api_2.13/2.8.0/play-jdbc-api_2.13-2.8.0-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-jdbc-api_2.13/2.8.0/play-jdbc-api_2.13-2.8.0-sources.jar"
                         }
                     ]
                 },
@@ -583,12 +583,12 @@
                     "artifacts": [
                         {
                             "name": "play-jdbc-evolutions_2.13",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-jdbc-evolutions_2.13/2.8.0/play-jdbc-evolutions_2.13-2.8.0.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-jdbc-evolutions_2.13/2.8.0/play-jdbc-evolutions_2.13-2.8.0.jar"
                         },
                         {
                             "name": "play-jdbc-evolutions_2.13",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-jdbc-evolutions_2.13/2.8.0/play-jdbc-evolutions_2.13-2.8.0-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-jdbc-evolutions_2.13/2.8.0/play-jdbc-evolutions_2.13-2.8.0-sources.jar"
                         }
                     ]
                 },
@@ -600,12 +600,12 @@
                     "artifacts": [
                         {
                             "name": "logback-core",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.11/logback-core-1.2.11.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.11/logback-core-1.2.11.jar"
                         },
                         {
                             "name": "logback-core",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.11/logback-core-1.2.11-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.11/logback-core-1.2.11-sources.jar"
                         }
                     ]
                 },
@@ -617,12 +617,12 @@
                     "artifacts": [
                         {
                             "name": "guice",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/inject/guice/4.2.3/guice-4.2.3.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/inject/guice/4.2.3/guice-4.2.3.jar"
                         },
                         {
                             "name": "guice",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/inject/guice/4.2.3/guice-4.2.3-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/inject/guice/4.2.3/guice-4.2.3-sources.jar"
                         }
                     ]
                 },
@@ -634,12 +634,12 @@
                     "artifacts": [
                         {
                             "name": "guice-assistedinject",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.2.3/guice-assistedinject-4.2.3.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.2.3/guice-assistedinject-4.2.3.jar"
                         },
                         {
                             "name": "guice-assistedinject",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.2.3/guice-assistedinject-4.2.3-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.2.3/guice-assistedinject-4.2.3-sources.jar"
                         }
                     ]
                 },
@@ -651,12 +651,12 @@
                     "artifacts": [
                         {
                             "name": "build-link",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/build-link/2.8.19/build-link-2.8.19.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/build-link/2.8.19/build-link-2.8.19.jar"
                         },
                         {
                             "name": "build-link",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/build-link/2.8.19/build-link-2.8.19-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/build-link/2.8.19/build-link-2.8.19-sources.jar"
                         }
                     ]
                 },
@@ -668,12 +668,12 @@
                     "artifacts": [
                         {
                             "name": "jul-to-slf4j",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36.jar"
                         },
                         {
                             "name": "jul-to-slf4j",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36-sources.jar"
                         }
                     ]
                 },
@@ -685,12 +685,12 @@
                     "artifacts": [
                         {
                             "name": "jcl-over-slf4j",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.36/jcl-over-slf4j-1.7.36.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.36/jcl-over-slf4j-1.7.36.jar"
                         },
                         {
                             "name": "jcl-over-slf4j",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.36/jcl-over-slf4j-1.7.36-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.36/jcl-over-slf4j-1.7.36-sources.jar"
                         }
                     ]
                 },
@@ -702,12 +702,12 @@
                     "artifacts": [
                         {
                             "name": "akka-actor_2.13",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.20/akka-actor_2.13-2.6.20.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.20/akka-actor_2.13-2.6.20.jar"
                         },
                         {
                             "name": "akka-actor_2.13",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.20/akka-actor_2.13-2.6.20-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.20/akka-actor_2.13-2.6.20-sources.jar"
                         }
                     ]
                 },
@@ -719,12 +719,12 @@
                     "artifacts": [
                         {
                             "name": "akka-actor-typed_2.13",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.6.20/akka-actor-typed_2.13-2.6.20.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.6.20/akka-actor-typed_2.13-2.6.20.jar"
                         },
                         {
                             "name": "akka-actor-typed_2.13",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.6.20/akka-actor-typed_2.13-2.6.20-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.6.20/akka-actor-typed_2.13-2.6.20-sources.jar"
                         }
                     ]
                 },
@@ -736,12 +736,12 @@
                     "artifacts": [
                         {
                             "name": "akka-slf4j_2.13",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.6.20/akka-slf4j_2.13-2.6.20.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.6.20/akka-slf4j_2.13-2.6.20.jar"
                         },
                         {
                             "name": "akka-slf4j_2.13",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.6.20/akka-slf4j_2.13-2.6.20-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.6.20/akka-slf4j_2.13-2.6.20-sources.jar"
                         }
                     ]
                 },
@@ -753,12 +753,12 @@
                     "artifacts": [
                         {
                             "name": "akka-serialization-jackson_2.13",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-serialization-jackson_2.13/2.6.20/akka-serialization-jackson_2.13-2.6.20.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-serialization-jackson_2.13/2.6.20/akka-serialization-jackson_2.13-2.6.20.jar"
                         },
                         {
                             "name": "akka-serialization-jackson_2.13",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-serialization-jackson_2.13/2.6.20/akka-serialization-jackson_2.13-2.6.20-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-serialization-jackson_2.13/2.6.20/akka-serialization-jackson_2.13-2.6.20-sources.jar"
                         }
                     ]
                 },
@@ -770,12 +770,12 @@
                     "artifacts": [
                         {
                             "name": "jackson-core",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.11.4/jackson-core-2.11.4.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.11.4/jackson-core-2.11.4.jar"
                         },
                         {
                             "name": "jackson-core",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.11.4/jackson-core-2.11.4-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.11.4/jackson-core-2.11.4-sources.jar"
                         }
                     ]
                 },
@@ -787,12 +787,12 @@
                     "artifacts": [
                         {
                             "name": "jackson-annotations",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.11.4/jackson-annotations-2.11.4.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.11.4/jackson-annotations-2.11.4.jar"
                         },
                         {
                             "name": "jackson-annotations",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.11.4/jackson-annotations-2.11.4-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.11.4/jackson-annotations-2.11.4-sources.jar"
                         }
                     ]
                 },
@@ -804,12 +804,12 @@
                     "artifacts": [
                         {
                             "name": "jackson-datatype-jdk8",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.11.4/jackson-datatype-jdk8-2.11.4.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.11.4/jackson-datatype-jdk8-2.11.4.jar"
                         },
                         {
                             "name": "jackson-datatype-jdk8",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.11.4/jackson-datatype-jdk8-2.11.4-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.11.4/jackson-datatype-jdk8-2.11.4-sources.jar"
                         }
                     ]
                 },
@@ -821,12 +821,12 @@
                     "artifacts": [
                         {
                             "name": "jackson-datatype-jsr310",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.4/jackson-datatype-jsr310-2.11.4.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.4/jackson-datatype-jsr310-2.11.4.jar"
                         },
                         {
                             "name": "jackson-datatype-jsr310",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.4/jackson-datatype-jsr310-2.11.4-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.4/jackson-datatype-jsr310-2.11.4-sources.jar"
                         }
                     ]
                 },
@@ -838,12 +838,12 @@
                     "artifacts": [
                         {
                             "name": "jackson-databind",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.11.4/jackson-databind-2.11.4.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.11.4/jackson-databind-2.11.4.jar"
                         },
                         {
                             "name": "jackson-databind",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.11.4/jackson-databind-2.11.4-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.11.4/jackson-databind-2.11.4-sources.jar"
                         }
                     ]
                 },
@@ -855,12 +855,12 @@
                     "artifacts": [
                         {
                             "name": "play-json_2.13",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-json_2.13/2.8.2/play-json_2.13-2.8.2.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-json_2.13/2.8.2/play-json_2.13-2.8.2.jar"
                         },
                         {
                             "name": "play-json_2.13",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-json_2.13/2.8.2/play-json_2.13-2.8.2-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-json_2.13/2.8.2/play-json_2.13-2.8.2-sources.jar"
                         }
                     ]
                 },
@@ -872,12 +872,12 @@
                     "artifacts": [
                         {
                             "name": "guava",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar"
                         },
                         {
                             "name": "guava",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre-sources.jar"
                         }
                     ]
                 },
@@ -889,12 +889,12 @@
                     "artifacts": [
                         {
                             "name": "jjwt",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar"
                         },
                         {
                             "name": "jjwt",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1-sources.jar"
                         }
                     ]
                 },
@@ -906,12 +906,12 @@
                     "artifacts": [
                         {
                             "name": "jakarta.xml.bind-api",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar"
                         },
                         {
                             "name": "jakarta.xml.bind-api",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3-sources.jar"
                         }
                     ]
                 },
@@ -923,12 +923,12 @@
                     "artifacts": [
                         {
                             "name": "jakarta.transaction-api",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3.jar"
                         },
                         {
                             "name": "jakarta.transaction-api",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3-sources.jar"
                         }
                     ]
                 },
@@ -940,12 +940,12 @@
                     "artifacts": [
                         {
                             "name": "javax.inject",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar"
                         },
                         {
                             "name": "javax.inject",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1-sources.jar"
                         }
                     ]
                 },
@@ -957,12 +957,12 @@
                     "artifacts": [
                         {
                             "name": "scala-java8-compat_2.13",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/1.0.2/scala-java8-compat_2.13-1.0.2.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/1.0.2/scala-java8-compat_2.13-1.0.2.jar"
                         },
                         {
                             "name": "scala-java8-compat_2.13",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/1.0.2/scala-java8-compat_2.13-1.0.2-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/1.0.2/scala-java8-compat_2.13-1.0.2-sources.jar"
                         }
                     ]
                 },
@@ -974,12 +974,12 @@
                     "artifacts": [
                         {
                             "name": "ssl-config-core_2.13",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.3/ssl-config-core_2.13-0.4.3.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.3/ssl-config-core_2.13-0.4.3.jar"
                         },
                         {
                             "name": "ssl-config-core_2.13",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.3/ssl-config-core_2.13-0.4.3-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.3/ssl-config-core_2.13-0.4.3-sources.jar"
                         }
                     ]
                 },
@@ -991,12 +991,12 @@
                     "artifacts": [
                         {
                             "name": "scala-parser-combinators_2.13",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2.jar"
                         },
                         {
                             "name": "scala-parser-combinators_2.13",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2-sources.jar"
                         }
                     ]
                 },
@@ -1008,12 +1008,12 @@
                     "artifacts": [
                         {
                             "name": "akka-stream_2.13",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.20/akka-stream_2.13-2.6.20.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.20/akka-stream_2.13-2.6.20.jar"
                         },
                         {
                             "name": "akka-stream_2.13",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.20/akka-stream_2.13-2.6.20-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.20/akka-stream_2.13-2.6.20-sources.jar"
                         }
                     ]
                 },
@@ -1025,12 +1025,12 @@
                     "artifacts": [
                         {
                             "name": "akka-parsing_2.13",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.1.15/akka-parsing_2.13-10.1.15.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.1.15/akka-parsing_2.13-10.1.15.jar"
                         },
                         {
                             "name": "akka-parsing_2.13",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.1.15/akka-parsing_2.13-10.1.15-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.1.15/akka-parsing_2.13-10.1.15-sources.jar"
                         }
                     ]
                 },
@@ -1042,12 +1042,12 @@
                     "artifacts": [
                         {
                             "name": "aopalliance",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar"
                         },
                         {
                             "name": "aopalliance",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar"
                         }
                     ]
                 },
@@ -1059,12 +1059,12 @@
                     "artifacts": [
                         {
                             "name": "play-exceptions",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.8.19/play-exceptions-2.8.19.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.8.19/play-exceptions-2.8.19.jar"
                         },
                         {
                             "name": "play-exceptions",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.8.19/play-exceptions-2.8.19-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.8.19/play-exceptions-2.8.19-sources.jar"
                         }
                     ]
                 },
@@ -1076,12 +1076,12 @@
                     "artifacts": [
                         {
                             "name": "jackson-module-parameter-names",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.11.4/jackson-module-parameter-names-2.11.4.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.11.4/jackson-module-parameter-names-2.11.4.jar"
                         },
                         {
                             "name": "jackson-module-parameter-names",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.11.4/jackson-module-parameter-names-2.11.4-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.11.4/jackson-module-parameter-names-2.11.4-sources.jar"
                         }
                     ]
                 },
@@ -1093,12 +1093,12 @@
                     "artifacts": [
                         {
                             "name": "jackson-dataformat-cbor",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.11.4/jackson-dataformat-cbor-2.11.4.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.11.4/jackson-dataformat-cbor-2.11.4.jar"
                         },
                         {
                             "name": "jackson-dataformat-cbor",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.11.4/jackson-dataformat-cbor-2.11.4-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.11.4/jackson-dataformat-cbor-2.11.4-sources.jar"
                         }
                     ]
                 },
@@ -1110,12 +1110,12 @@
                     "artifacts": [
                         {
                             "name": "jackson-module-scala_2.13",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.13/2.11.4/jackson-module-scala_2.13-2.11.4.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.13/2.11.4/jackson-module-scala_2.13-2.11.4.jar"
                         },
                         {
                             "name": "jackson-module-scala_2.13",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.13/2.11.4/jackson-module-scala_2.13-2.11.4-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.13/2.11.4/jackson-module-scala_2.13-2.11.4-sources.jar"
                         }
                     ]
                 },
@@ -1127,12 +1127,12 @@
                     "artifacts": [
                         {
                             "name": "lz4-java",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar"
                         },
                         {
                             "name": "lz4-java",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0-sources.jar"
                         }
                     ]
                 },
@@ -1144,12 +1144,12 @@
                     "artifacts": [
                         {
                             "name": "play-functional_2.13",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-functional_2.13/2.8.2/play-functional_2.13-2.8.2.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-functional_2.13/2.8.2/play-functional_2.13-2.8.2.jar"
                         },
                         {
                             "name": "play-functional_2.13",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-functional_2.13/2.8.2/play-functional_2.13-2.8.2-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-functional_2.13/2.8.2/play-functional_2.13-2.8.2-sources.jar"
                         }
                     ]
                 },
@@ -1161,12 +1161,12 @@
                     "artifacts": [
                         {
                             "name": "scala-reflect",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.10/scala-reflect-2.13.10.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.10/scala-reflect-2.13.10.jar"
                         },
                         {
                             "name": "scala-reflect",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.10/scala-reflect-2.13.10-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.10/scala-reflect-2.13.10-sources.jar"
                         }
                     ]
                 },
@@ -1178,12 +1178,12 @@
                     "artifacts": [
                         {
                             "name": "joda-time",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar"
                         },
                         {
                             "name": "joda-time",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.10.5/joda-time-2.10.5-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.10.5/joda-time-2.10.5-sources.jar"
                         }
                     ]
                 },
@@ -1195,12 +1195,12 @@
                     "artifacts": [
                         {
                             "name": "failureaccess",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar"
                         },
                         {
                             "name": "failureaccess",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1-sources.jar"
                         }
                     ]
                 },
@@ -1212,7 +1212,7 @@
                     "artifacts": [
                         {
                             "name": "listenablefuture",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"
                         }
                     ]
                 },
@@ -1224,12 +1224,12 @@
                     "artifacts": [
                         {
                             "name": "jsr305",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
                         },
                         {
                             "name": "jsr305",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-sources.jar"
                         }
                     ]
                 },
@@ -1241,12 +1241,12 @@
                     "artifacts": [
                         {
                             "name": "checker-qual",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar"
                         },
                         {
                             "name": "checker-qual",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0-sources.jar"
                         }
                     ]
                 },
@@ -1258,12 +1258,12 @@
                     "artifacts": [
                         {
                             "name": "error_prone_annotations",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar"
                         },
                         {
                             "name": "error_prone_annotations",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1-sources.jar"
                         }
                     ]
                 },
@@ -1275,12 +1275,12 @@
                     "artifacts": [
                         {
                             "name": "j2objc-annotations",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar"
                         },
                         {
                             "name": "j2objc-annotations",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3-sources.jar"
                         }
                     ]
                 },
@@ -1292,12 +1292,12 @@
                     "artifacts": [
                         {
                             "name": "jakarta.activation-api",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar"
                         },
                         {
                             "name": "jakarta.activation-api",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2-sources.jar"
                         }
                     ]
                 },
@@ -1309,12 +1309,12 @@
                     "artifacts": [
                         {
                             "name": "akka-protobuf-v3_2.13",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.20/akka-protobuf-v3_2.13-2.6.20.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.20/akka-protobuf-v3_2.13-2.6.20.jar"
                         },
                         {
                             "name": "akka-protobuf-v3_2.13",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.20/akka-protobuf-v3_2.13-2.6.20-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.20/akka-protobuf-v3_2.13-2.6.20-sources.jar"
                         }
                     ]
                 },
@@ -1326,12 +1326,12 @@
                     "artifacts": [
                         {
                             "name": "jackson-module-paranamer",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.11.4/jackson-module-paranamer-2.11.4.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.11.4/jackson-module-paranamer-2.11.4.jar"
                         },
                         {
                             "name": "jackson-module-paranamer",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.11.4/jackson-module-paranamer-2.11.4-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.11.4/jackson-module-paranamer-2.11.4-sources.jar"
                         }
                     ]
                 },
@@ -1343,12 +1343,12 @@
                     "artifacts": [
                         {
                             "name": "paranamer",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar"
                         },
                         {
                             "name": "paranamer",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8-sources.jar"
                         }
                     ]
                 },
@@ -1360,12 +1360,12 @@
                     "artifacts": [
                         {
                             "name": "scala-library",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar"
                         },
                         {
                             "name": "scala-library",
                             "classifier": "sources",
-                            "path": "/Users/jkmvilla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10-sources.jar"
+                            "path": "/Users/rigisidro/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10-sources.jar"
                         }
                     ]
                 }
